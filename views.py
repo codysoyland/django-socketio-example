@@ -21,5 +21,6 @@ def socketio(request):
         else:
             if not socketio.connected():
                 socketio.broadcast({'announcement': socketio.session.session_id + ' disconnected'})
+                break
 
     return HttpResponse()
