@@ -17,7 +17,7 @@ Installation
     easy_install pip
     pip install virtualenv
     virtualenv .
-    ./bin/activate
+    source ./bin/activate
     pip install -r pip_requirements.txt
 
 -------
